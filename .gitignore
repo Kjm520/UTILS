@@ -1,0 +1,13 @@
+# Third-party apps
+programs/
+
+# Local holding areas
+\!scrap/
+
+# Claude Code per-machine settings
+.claude/settings.local.json
+
+# Logs and OS cruft
+*.log
+Thumbs.db
+desktop.ini

@@ -1,4 +1,5 @@
 # Find any HID device that reports battery level - no device path or name needed.
+# Example Case: show the current battery levels for the charging Apple Magic Keyboard.
 # Scans every present HID interface for battery usages in its report descriptor:
 #   Usage Page 0x85 (Battery System): 0x64 RelativeStateOfCharge, 0x65 AbsoluteStateOfCharge, 0x66 RemainingCapacity
 #   Usage Page 0x06 (Generic Device Controls): 0x20 Battery Strength
