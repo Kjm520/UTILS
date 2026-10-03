@@ -1,3 +1,4 @@
+# SYMLINKED
 
 function pingsweep {
     param(
