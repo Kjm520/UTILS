@@ -1,5 +1,8 @@
 # SYMLINKED
 
+# Aliases
+
+#Funcations
 function pingsweep {
     param(
         [Parameter(Mandatory = $true)]
@@ -13,3 +16,24 @@ function pingsweep {
         }
     }
 }
+
+
+function hex {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$path,
+        [Parameter(Mandatory = $true)]
+        [long]$offset,
+        [Parameter(Mandatory = $true)]
+        [int]$count
+    )
+    Format-Hex $path -Offset $offset -Count $count
+}
+
+
+
+
+
+
+
+
