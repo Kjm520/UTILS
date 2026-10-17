@@ -4,6 +4,10 @@ programs/
 # Local holding areas
 \!scrap/
 
+# Junctions
+wireshark-config-junction/
+/vscode-profile-config-junction
+
 # Claude Code per-machine settings
 .claude/settings.local.json
 

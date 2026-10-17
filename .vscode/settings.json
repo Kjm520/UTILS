@@ -1,0 +1,6 @@
+{
+    "files.readonlyInclude": {
+        "c:\\Users\\kjm52\\DEV\\UTILS\\wireshark-config-junction\\**": true,
+        "c:\\Users\\kjm52\\DEV\\UTILS\\vscode-profile-config-junction\\**": true
+    }
+}
